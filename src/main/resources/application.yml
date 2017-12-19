@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaut-zone: http://localhost:8761/eureka/
+
+server:
+  port: 8762
+  session-timeout: 60
+  tomcat.max-threads: 0  
+  tomcat.uri-encoding: UTF-8  
+
+spring:
+  thymeleaf:
+   cache: false
+   encoding: UTF-8
+   content-type: text/html
+   mode: HTML5
+  
+  application:
+    name: ssh
