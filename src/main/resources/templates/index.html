@@ -6,11 +6,11 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 		<title>西西里上海商会投资有限公司</title>
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/font/iconfont.css" />
-		<link rel="stylesheet" href="css/slidorion.css" />
-		<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" th:href="@{css/style.css}"/>
+		<link rel="stylesheet" th:href="@{css/bootstrap.min.css}"/>
+		<link rel="stylesheet" th:href="@{css/font/iconfont.css}"/>
+		<link rel="stylesheet" th:href="@{css/slidorion.css}"/>
+		<link rel="stylesheet" th:href="@{css/animate.min.css}"/>
 		<!--[if IE]>
 		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 	    <![endif]-->
@@ -36,7 +36,7 @@
 						<ul class="navlist col-lg-9 col-sm-9 col-md-9">
 							<li class="active">
 								<!--<a th:href="@{'/test1/'+${name}}">首页 <p th:text="'【' +${name}+ '】'" ></p></a>-->
-                                <a href="javascript:;">首页</a>
+                                <a th:href="@{'/test1/'+${name}}">首页</a>
 							</li>
 							<li>
                                 <!--<a href="javascript:;" th:onclick="'aaa(\''+${name}+'\')'">关于</a>-->
@@ -62,7 +62,7 @@
 						咨询共享和<i>推广</i>
 					</h3>
 					<h1 class="animated zoomInRight">
-						高标准  精细化 <i> 私人定制</i>
+						高标准  精细化 <i>大型投资项目</i>
 					</h1>
 					<p class="animated fadeInLeft">investimentisicilia&amp;shanghai</p>
 					<a class="animated fadeInLeft" href="javascript:;">
@@ -320,8 +320,8 @@
 							</li>
 							<li>传真：0769-38991872</li>
 							<li>邮箱：investimentisici</li>
-							<li> liaeshanghai@gmail.com</li>
-							<li>地址: Via Umberto ，354 </li>
+							<li>liaeshanghai@gmail.com</li>
+							<li>地址:</li>
 						</ul>
 					</div>
 					<div class="com-sm-5 col-md-5 col-lg-5">
